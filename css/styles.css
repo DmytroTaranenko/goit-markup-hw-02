@@ -45,27 +45,36 @@ body {
     color: #2e2f42;
 }
 
+.contact-block {
+    font-style: normal;
+}
+
 .menu-link:hover,
 .menu-link:focus{
     color: #404bbf;
 }
 
-.address-link {
+.contact-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: inherit;
 }
 
-.address-link:hover,
-.address-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
+}
+
+.section-main {
+    background: #2e2f42;
 }
 
 .header-main {
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #fff;
+    text-align: center;
+    color: #ffffff;
 }
 
 .button {
@@ -74,9 +83,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-    color: #fff;
+    color: #ffffff;
 }
 
 .button:hover,
@@ -101,10 +109,12 @@ body {
     background: #f4f4fd;
 }
 
-.header-team {
+.header-our-team {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
     color: #2e2f42;
 }
 
@@ -121,10 +131,11 @@ body {
     letter-spacing: 0.02em;
 }
 
-.header-portfolio {
+.our-portfolio {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
 
@@ -143,5 +154,13 @@ body {
 .footer-discription {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.page-footer {
+    background: #2e2f42;
+}
+
+.footer-logo-studio {
     color: #f4f4fd;
 }
