@@ -11,9 +11,6 @@ button{
     cursor: pointer;
 }
 
-img {
-    display: block;
-}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -151,9 +148,9 @@ body {
     color: #2e2f42;
 }
 
-.description-service {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+.section-portfolio p{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer-discription {
